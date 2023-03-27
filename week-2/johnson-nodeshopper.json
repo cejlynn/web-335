@@ -1,0 +1,79 @@
+[
+    {
+        "_id": 1456,
+        "firstName": "Clarke",
+        "lastName": "Griffin",
+        "dateOfBirth": "1999",
+        "username": "cgriffin",
+        "invoices": [
+            {
+                "_id": 9876,
+                "createDate": "03/10/23",
+                "shipDate": "3/12/23",
+                "subtotal": 51.90
+            }
+        ]
+    }, 
+    {
+        "invoices": 
+            {
+                "_id": 8765,
+                "createDate": "03/15/23",
+                "shipDate": "03/18/23",
+                "subtotal": 43.29,
+                "customer": [
+                    {
+                        "_id": 1456,
+                        "firstName": "Clarke",
+                        "lastName": "Griffin",
+                        "dateOfBirth": "1999",
+                        "username": "cgriffin"
+                    },
+                    {
+                        "_id": 1756,
+                        "firstName": "Bellamy",
+                        "lastName": "Blake",
+                        "dateOfBirth": "1995",
+                        "username": "bellblake"
+                    }
+                ]
+            },
+            {   "_id": 8765,
+                "createDate": "03/15/23",
+                "shipDate": "03/18/23",
+                "subtotal": 43.29,
+                "customer": [
+                    {
+                        "_id": 1456,
+                        "firstName": "Clarke",
+                        "lastName": "Griffin",
+                        "dateOfBirth": "1999",
+                        "username": "cgriffin"
+                    },
+                    {
+                        "_id": 1756,
+                        "firstName": "Bellamy",
+                        "lastName": "Blake",
+                        "dateOfBirth": "1995",
+                        "username": "bellblake"
+                    },
+                    {
+
+                "lineitems": {
+                    "_id": 1679,
+                    "productName": "Paint Brushes",
+                    "price": 8.99,
+                    "qty": 6,
+                    "invoice": {
+                        "_id": 0876,
+                        "createDate": "03/04/23",
+                        "shipDate": "03/06/23",
+                        "subtotal": 51.90
+                    }
+
+                }
+            }
+        ]
+    }
+}
+]

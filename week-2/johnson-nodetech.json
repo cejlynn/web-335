@@ -1,0 +1,66 @@
+[
+    {
+        "studentId": 1567,
+        "firstName": "Clarke",
+        "lastName": "Griffin",
+        "enrollment": [
+            {
+            "term": "fall",
+            "gpa": 3.7,
+            "startDate": "09/8/23",
+            "endDate": "11/21/23"
+            },
+            {
+                "term": "summer",
+                "gpa": 3.7, 
+                "startDate": "05/06/23",
+                "endDate": "07/12/23"
+            }
+        ]
+    },
+
+    {
+        "term": "fall",
+            "gpa": 3.7,
+            "startDate": "09/8/23",
+            "endDate": "11/21/23",
+            "course": [
+                {
+                    "course": "Python",
+                    "description": "This course will teach you the basics of Python.",
+                    "instructor": "Professor Kane",
+                    "score": 95, 
+                    "letterGrade": "A+"
+                },
+                {
+                    "course": "History of Art",
+                    "description": "This course will teach you the history of art.",
+                    "instructor": "Professor Kane",
+                    "score": 100,
+                    "letterGrade": "A+"
+                }
+            ]
+    },
+    {
+        "studentId": 1567,
+        "firstName": "Clarke",
+        "lastName": "Griffin",
+        "course": [
+            {
+                "course": "Python",
+                "description": "This course will teach you the basics of Python.",
+                "instructor": "Professor Kane",
+                "score": 95, 
+                "letterGrade": "A+"
+            },
+            {
+                "course": "History of Art",
+                "description": "This course will teach you the history of art.",
+                "instructor": "Professor Kane",
+                "score": 100,
+                "letterGrade": "A+"
+            }
+        ]
+
+    }
+]
