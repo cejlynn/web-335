@@ -1,0 +1,24 @@
+[
+    {
+        "user": "Caitlynne",
+        "role": [
+            {
+                "role": "Student"
+            },
+            {
+                "role": "Developer"
+            }
+        ]
+    },
+    {
+        "role": "Developer",
+        "permission": [
+            {
+                "permission": "Admin"
+            },
+            {
+                "permission": "Database Admin"
+            }
+        ]
+    }
+]
